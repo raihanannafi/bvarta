@@ -41,3 +41,7 @@ npx cypress run
 
 ```
 4. Cypress will automatically detect and run the test script against the `https://reqres.in/api/users` API endpoint.
+
+## Mochawesome Reporter Plugin
+
+The test script is configured to use the Mochawesome reporter plugin for generating detailed test reports. After running the test suite, the Mochawesome report will be saved as an HTML file in the `report` folder.
