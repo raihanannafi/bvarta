@@ -47,3 +47,16 @@ npx cypress run
 ## Mochawesome Reporter Plugin
 
 The test script is configured to use the Mochawesome reporter plugin for generating detailed test reports. After running the test suite, the Mochawesome report will be saved as an HTML file in the `report` folder.
+
+Here quick screenshot for the report
+
+![image](https://github.com/raihanannafi/bvarta/assets/48504245/83906114-85db-4b5c-b129-da0d156859e5)
+![image](https://github.com/raihanannafi/bvarta/assets/48504245/eb7ca61a-cb05-4f56-a3cb-79355a8d9a7e)
+![image](https://github.com/raihanannafi/bvarta/assets/48504245/aaf6850c-f174-426f-a3fc-a5665cd6c729)
+![image](https://github.com/raihanannafi/bvarta/assets/48504245/0d2ff176-ba27-4999-b8c8-da0fce1c31fc)
+![image](https://github.com/raihanannafi/bvarta/assets/48504245/c38a76a5-3d97-4b43-a1b3-dd4592d9f266)
+
+
+
+
+
