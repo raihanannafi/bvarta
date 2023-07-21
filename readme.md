@@ -21,9 +21,11 @@ The test script utilizes Cypress' powerful testing capabilities to execute multi
 3. Validates the response status code using the `expect()` assertion, ensuring the API response matches the expected status code provided in the test data.
 4. Verifies the response body against the provided database fixture using the `expect()` assertion. The comparison ensures that the API response data matches the data stored in the simple database fixture.
 
-## Note on Website's Requirements
+## Note on Website's Requirements and Test Question
 
-Due to the website's specific API behavior, the test script includes custom assertions to handle potential edge cases or unexpected API responses. The expected status code for each test case is explicitly defined in the test data JSON file to accommodate these unique requirements.
+Due to the website's specific API behavior, the test script includes custom assertions to handle potential edge cases or unexpected API responses. 
+
+As described in test question, I did some changes in expected status code, better expectation status code,  in order to show report have `Success and Fail` Test Result
 
 ## How to Run the Tests
 
