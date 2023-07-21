@@ -1,0 +1,11 @@
+[
+  { "test_number": 1, "test_type":"P", "desc": "with valid payload ", "id": 1, "name": "Update Raihan", "job": "Update QA Lead","expected_resp_code": 200},
+  { "test_number": 2, "test_type":"N", "desc": "with empty name", "id": 1, "name": "", "job": "Update QA Lead","expected_resp_code": 400},
+  { "test_number": 3, "test_type":"N", "desc": "with empty job", "id": 1, "name": "Update Raihan", "job": "","expected_resp_code": 400},
+  { "test_number": 4, "test_type":"N", "desc": "with name more than 100 char", "id": 1, "name": "AssumeThisString100Char", "job": "Update QA Lead","expected_resp_code": 400},
+  { "test_number": 5, "test_type":"N", "desc": "with job more than 100 char", "id": 1, "name": "Update Raihan", "job": "AssumeThisString100Char","expected_resp_code": 400},
+  { "test_number": 6, "test_type":"N", "desc": "with name using numeric", "id": 1, "name": "123", "job": "Update QA Lead","expected_resp_code": 400},
+  { "test_number": 7, "test_type":"N", "desc": "with name using special char", "id": 1, "name": "R@#$%!", "job": "Update QA Lead","expected_resp_code": 400},
+  { "test_number": 8, "test_type":"P", "desc": "with same data ", "id": 1, "name": "Raihan", "job": "QA Lead","expected_resp_code": 200},
+  { "test_number": 9, "test_type":"N", "desc": "with not exist id ", "id": 999999, "name": "Update Raihan", "job": "Update QA Lead","expected_resp_code": 404}
+]

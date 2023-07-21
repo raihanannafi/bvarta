@@ -1,0 +1,7 @@
+[
+  { "test_number": 1, "test_type":"P", "desc": "with valid params ", "page": "1", "per_page": "1","expected_resp_code": 200},
+  { "test_number": 2, "test_type":"N", "desc": "with empty per_page", "page": "1", "per_page": "","expected_resp_code": 200},
+  { "test_number": 3, "test_type":"N", "desc": "with empty page", "page": "", "per_page": "6","expected_resp_code": 200},
+  { "test_number": 4, "test_type":"N", "desc": "with invalid page", "page": "x", "per_page": "","expected_resp_code": 200},
+  { "test_number": 5, "test_type":"N", "desc": "with invalid per_page", "page": "1", "per_page": "x","expected_resp_code": 200}
+]

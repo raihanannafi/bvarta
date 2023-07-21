@@ -1,0 +1,14 @@
+{
+  "name": "bvarta",
+  "version": "1.0.0",
+  "description": "Technical Test - Raihan Annafi",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run"
+  },
+  "author": "Raihan Annafi",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.2"
+  }
+}

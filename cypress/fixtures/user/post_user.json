@@ -1,0 +1,9 @@
+[
+  { "test_number": 1, "test_type":"P", "desc": "with valid payload ", "name": "Raihan", "job": "QA Lead","expected_resp_code": 201},
+  { "test_number": 2, "test_type":"N", "desc": "with empty name", "name": "", "job": "QA Lead","expected_resp_code": 400},
+  { "test_number": 3, "test_type":"N", "desc": "with empty job", "name": "Raihan", "job": "","expected_resp_code": 400},
+  { "test_number": 4, "test_type":"N", "desc": "with name more than 100 char", "name": "AssumeThisString100Char", "job": "QA Lead","expected_resp_code": 400},
+  { "test_number": 5, "test_type":"N", "desc": "with job more than 100 char", "name": "Raihan", "job": "AssumeThisString100Char","expected_resp_code": 400},
+  { "test_number": 6, "test_type":"N", "desc": "with name using numeric", "name": "123", "job": "QA Lead","expected_resp_code": 400},
+  { "test_number": 7, "test_type":"N", "desc": "with name using special char", "name": "R@#$%!", "job": "QA Lead","expected_resp_code": 400}
+]
