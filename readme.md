@@ -1,5 +1,7 @@
 # Cypress Test Script for https://reqres.in/api/users API
 
+To clone it, you can go to https://github.com/raihanannafi/bvarta
+
 This repository contains a Cypress test script for testing the API endpoints of the website `https://reqres.in/api/users`. The test script leverages test data stored in JSON format within the `fixtures` directory to perform various test cases. Additionally, a simple database with JSON format is provided in the `fixtures` directory to validate the API responses.
 
 ## Dynamic test / Data Driven Test
